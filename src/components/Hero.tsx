@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowUpRight, Mail, Download, ChevronDown } from 'lucide-react';
+import { ArrowUpRight, Mail, ChevronDown } from 'lucide-react';
 import { profile, heroData } from '../data/portfolioData';
 import { GithubIcon, LinkedinIcon, LeetCodeIcon } from './SocialIcons';
 
@@ -59,13 +59,6 @@ export const Hero: React.FC = () => {
           >
             <Mail size={18} />
             Contact Me
-          </a>
-          <a
-            href={`${import.meta.env.BASE_URL}resume.pdf`}
-            className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl border border-slate-200 text-slate-700 font-semibold hover:border-teal-300 hover:text-teal-600 hover:bg-teal-50/50 transition-all"
-          >
-            <Download size={18} />
-            Resume
           </a>
         </div>
 
